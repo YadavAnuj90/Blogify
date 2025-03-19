@@ -2,7 +2,7 @@ const JWT  = require('jsonwebtoken');
 
 const secret = "$ladduPaddu@123";
 
-//this function take user object and genrete token
+//this function take user object and genrete a token this token will be used for authentication
  
 function createTokenForUser(user) {
     const payload = {
